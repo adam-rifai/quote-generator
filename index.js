@@ -22,4 +22,4 @@ async function get_quote() {
 
 btnEl.addEventListener("click", get_quote);
 
-get_quote();
+
