@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left bottom, lightgreen, lightblue);
+}
+
+.heading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 70%;
+  margin: 150px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+  padding: 30px;
+
+}
+
+.btn{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgb(144, 238, 144);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255,255, 0.3);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  width: 34%;
+  
+}
+
+.btn:hover{
+  background-color: rgba(55, 135, 64, 0.953);
+ 
+}
+.btn:active{
+  opacity: 0.7;
+}
