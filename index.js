@@ -5,8 +5,8 @@ const authorEl = document.getElementById("author");
 
 async function get_quote() {
   try {
-    btnEl.innerText= 'loading...';
-    btnEl.disabled = true;
+    // btnEl.innerText= 'loading...';
+    // btnEl.disabled = true;
     const response = await fetch(apiUrl);
     const data = await response.json();
     quoteEl.innerText = data.content;
