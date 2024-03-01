@@ -5,8 +5,8 @@ body {
   background: linear-gradient(to left bottom, lightgreen, lightblue);
 }
 
-.heading{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .container {
@@ -17,27 +17,25 @@ body {
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
   padding: 30px;
-
 }
 
-.btn{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.btn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 10px;
-  font-size: 17px;
+  font-size: 24px;
   font-weight: bold;
-  background-color: rgb(144, 238, 144);
+  background-color: rgba(55, 135, 64, 0.953);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255,255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.3);
   cursor: pointer;
   width: 34%;
-  
+  letter-spacing: 3px;
 }
 
-.btn:hover{
-  background-color: rgba(55, 135, 64, 0.953);
- 
+.btn:hover {
+  background-color: hsl(120, 80%, 56%);
 }
-.btn:active{
+.btn:active {
   opacity: 0.7;
 }
